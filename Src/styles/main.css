@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../assets/img/bg.jpg);
+}
+
+/* SOCIAL NETWORK */
+
+.top-nav{
+    width: 100%;
+    height: 35px;
+    background-color: #524d4d88;
+}
+
+.social{
+    margin-top: 8px;
+    float: right;
+    padding-right: 50px;
+}
+
+
+.social-icon{
+    font-size: 15px;
+    padding: 8px 0px;
+    color: #D7D7D7;
+}
+
+.social-icon:hover{
+    color: #ffffff;
+    scale: 0.6;
+    transition: 0.2s;
+    border-radius: 3px
+}
+
+.icon-link{
+    font-size: 15px;
+    padding: 8px 10px;
+    color: #D7D7D7;
+}
+
+.in:hover{
+    background-color: #0A66C2;
+}
+
+.fb:hover{
+    background-color: #14A0F9;
+}
+
+.ig:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.yt:hover{
+    background-color: #FF0000;
+}
+
+.icon-link:visited{
+    color:inherit;
+}
+
+/* top page */
+
+.logo{
+    position: absolute;
+    top: 35px;
+    left: 65px;
+}
+
+.menu{
+    position: relative;
+}
+
+.main-menu{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.main-menu__item{
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.main-menu__link{
+    color: #b4ada5;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.main-menu__link:visited{
+    color: #b4ada5;
+}
+
+/* welcome section */
+
+.container{
+    width: 800px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-word{
+    font-size: 180px;
+}
+
+.welcome{
+    color: #b4ada5;
+    font-size: 110px;
+    line-height: 150px;
+    text-align: center;
+}
