@@ -4,7 +4,13 @@
 }
 
 body{
-    background-image: url(../assets/img/bg.jpg);
+    background-image: url(../assets/img/bg4.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: karantina;
+    src: url(../assets/fonts/karantina/Karantina-Regular.ttf);
 }
 
 /* SOCIAL NETWORK */
@@ -63,20 +69,20 @@ body{
 
 /* top page */
 
-.logo{
-    position: absolute;
+
+.top-page img{
+    width: 25vw;
+    min-width: 25vw;
+    position: relative;
     top: 35px;
     left: 65px;
 }
 
-.menu{
-    position: relative;
-}
-
 .main-menu{
     position: absolute;
-    top: 30px;
+    top: 80px;
     right: 0;
+    font-family: karantina;
 }
 
 .main-menu__item{
@@ -91,18 +97,19 @@ body{
     color: #b4ada5;
     text-decoration: none;
     padding-right: 50px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .main-menu__link:visited{
-    color: #b4ada5;
+    color: #ccc5bd;
 }
 
 /* welcome section */
 
 .container{
-    width: 800px;
-    height: 1000px;
+    width: 100%;
+    width: 80vw;
+    height: 800px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -111,12 +118,18 @@ body{
 }
 
 .first-word{
-    font-size: 180px;
+    font-size: 10vw;
+    font-size: 23vmin;
+
 }
 
 .welcome{
-    color: #b4ada5;
-    font-size: 110px;
+    font-family: karantina;
+    color: #ccc5bd;
+    font-size: 18vmin;
     line-height: 150px;
     text-align: center;
+    word-spacing: 10px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
 }
