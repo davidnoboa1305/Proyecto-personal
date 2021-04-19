@@ -13,17 +13,17 @@ body{
 
 @font-face {
     font-family: karantina;
-    src: url(../assets/fonts/karantina/Karantina-Regular.ttf);
+    src: url(../assets/fonts/Karantina-Regular.ttf);
 }
 
 @font-face {
     font-family: ubuntu;
-    src: url(../assets/fonts/ubuntu/Ubuntu-Regular.ttf);
+    src: url(../assets/fonts/Ubuntu-Regular.ttf);
 }
 
 @font-face {
     font-family: roboto;
-    src: url(../assets/fonts/roboto/Roboto-Regular.ttf);
+    src: url(../assets/fonts/Roboto-Regular.ttf);
 }
 
 .top{
