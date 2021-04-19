@@ -4,13 +4,32 @@
 }
 
 body{
+    background-color: #fafafa;
+/*
     background-image: url(../assets/img/bg4.jpg);
-    background-size: cover;
+    background-size: cover;*/
 }
+
 
 @font-face {
     font-family: karantina;
     src: url(../assets/fonts/karantina/Karantina-Regular.ttf);
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url(../assets/fonts/ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../assets/fonts/roboto/Roboto-Regular.ttf);
+}
+
+.top{
+    background-image: url(../assets/img/bg.jpg);
+    background-size: contain;
+    height: 170px;
 }
 
 /* SOCIAL NETWORK */
@@ -18,7 +37,7 @@ body{
 .top-nav{
     width: 100%;
     height: 35px;
-    background-color: #524d4d88;
+    background-color: #574e4e9d;
 }
 
 .social{
@@ -43,7 +62,7 @@ body{
 
 .icon-link{
     font-size: 15px;
-    padding: 8px 10px;
+    padding: 8px 13px;
     color: #D7D7D7;
 }
 
@@ -70,11 +89,11 @@ body{
 /* top page */
 
 
+
 .top-page img{
     width: 25vw;
-    min-width: 25vw;
+    /* min-width: 25vw; */
     position: relative;
-    top: 35px;
     left: 65px;
 }
 
@@ -94,42 +113,43 @@ body{
 }
 
 .main-menu__link{
-    color: #b4ada5;
+    color: #afa09f;
     text-decoration: none;
     padding-right: 50px;
     font-size: 25px;
 }
 
 .main-menu__link:visited{
-    color: #ccc5bd;
+    color: #cec3c2;
+}
+
+.inicio{
+    text-decoration: underline;
 }
 
 /* welcome section */
 
 .container{
-    width: 100%;
-    width: 80vw;
-    height: 800px;
+    background-color: #bfc3c7;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .first-word{
-    font-size: 10vw;
-    font-size: 23vmin;
+    font-size: 200px;
 
 }
 
 .welcome{
-    font-family: karantina;
-    color: #ccc5bd;
-    font-size: 18vmin;
+    padding-top: 120px;
+    font-family: roboto;
+    color: #3f3534;
+    font-size: 150px;
     line-height: 150px;
     text-align: center;
     word-spacing: 10px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 5px 0px #2e1f1fc0;
 }
