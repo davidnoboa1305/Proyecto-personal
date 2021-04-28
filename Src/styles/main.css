@@ -170,6 +170,7 @@ body{
 .sub-menu__link{
     background-color: #907761;
     padding: 4px 5px 0px 5px;
+    height: 35px;
 }
 
 .sub-menu__link:hover{
@@ -195,13 +196,10 @@ body{
 .main-menu__item:hover .sub-menu__item{
     top: 0;
     display: block;
-
 }
 
 .sub-menu__item{
     display: none;
-    position: relative;
-
 }
 
 .sub-menu{
@@ -251,3 +249,71 @@ body{
 .submit:hover{
     cursor: pointer
 }
+
+/* filter section */
+
+.filter-menu__text, .filter-values label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(83, 56, 56);
+    font-family: roboto;
+    font-size: 13px;
+    height: 30px;
+    text-decoration: none;
+}
+
+.filter-values label{
+    background-color: #907761;
+    padding: 4px 5px 0px 5px;
+    height: 35px;
+}
+
+.filter-menu, .filter-values{
+    list-style: none;
+    display: flex;
+}
+
+.filter-option, .filter-values__option{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.filter-option{
+    width: 100px;
+}
+
+.filter-option:hover .filter-values__option{
+    top: 0;
+    display: block;
+}
+
+.filter-values .filter-values__option{
+    display: none;
+}
+
+.filter-values{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.filter-option input:checked + label{
+    text-decoration: line-through;
+}
+
+.filter-option input{
+    display: none;
+}
+
+.filter-container{
+    display: flex;
+    align-items: center;
+    margin: 200px 0;
+    background-color: rgba(133, 132, 132, 0.432);
+    height: 35px;
+}
+
+
