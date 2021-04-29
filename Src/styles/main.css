@@ -252,6 +252,14 @@ body{
 
 /* filter section */
 
+.filter-container h4{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: roboto;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
 .filter-menu__text, .filter-values label{
     display: flex;
     justify-content: center;
@@ -263,11 +271,6 @@ body{
     text-decoration: none;
 }
 
-.filter-values label{
-    background-color: #907761;
-    padding: 4px 5px 0px 5px;
-    height: 35px;
-}
 
 .filter-menu, .filter-values{
     list-style: none;
@@ -281,7 +284,13 @@ body{
 }
 
 .filter-option{
-    width: 100px;
+    padding: 0 30px;
+}
+
+.filter-values label{
+    padding: 10px 10px;
+    height: 15px;
+    display: inline-block;
 }
 
 .filter-option:hover .filter-values__option{
@@ -305,15 +314,18 @@ body{
 }
 
 .filter-option input{
-    display: none;
+    /* display: none; */
+    display: inline-block;
 }
 
 .filter-container{
     display: flex;
     align-items: center;
     margin: 200px 0;
-    background-color: rgba(133, 132, 132, 0.432);
     height: 35px;
 }
 
-
+.check-container{
+    display: flex;
+    align-items:center;
+}
