@@ -170,7 +170,7 @@ body{
 .sub-menu__link{
     background-color: #907761;
     padding: 4px 5px 0px 5px;
-    height: 35px;
+    height: 40px;
 }
 
 .sub-menu__link:hover{
@@ -252,12 +252,22 @@ body{
 
 /* filter section */
 
+.filter-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 30px 0;
+    height: 35px;
+}
+
 .filter-container h4{
     font-weight: normal;
     text-transform: uppercase;
     font-family: roboto;
     font-size: 14px;
     padding-right: 20px;
+    color: rgb(83, 56, 56);
+
 }
 
 .filter-menu__text, .filter-values label{
@@ -314,18 +324,27 @@ body{
 }
 
 .filter-option input{
-    /* display: none; */
     display: inline-block;
 }
 
-.filter-container{
-    display: flex;
-    align-items: center;
-    margin: 200px 0;
-    height: 35px;
-}
 
 .check-container{
     display: flex;
     align-items:center;
+}
+
+/* gallery */
+
+.collage{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.collage-img{
+    width: 100%;
+    height: 100%;
 }
